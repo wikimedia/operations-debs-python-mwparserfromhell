@@ -1,0 +1,37 @@
+Source: mwparserfromhell
+Maintainer: Yuvi Panda <yuvipanda@riseup.net>
+Section: python
+Priority: optional
+Build-Depends: python3-setuptools, python3-all, python3-dev, python-setuptools, python-all, python-dev, debhelper (>= 9)
+Homepage: https://github.com/earwig/mwparserfromhell
+Standards-Version: 3.9.6
+Description: Outrageously powerful parser for MediaWiki wikicode
+ mwparserfromhell is a pure-Python parser (with optional C speedup) for
+ MediaWiki wikicode. It allows parsing and manipulation of complex
+ structures like nested templates, tables, and much more.
+ .
+ Documentation at https://mwparserfromhell.readthedocs.org/
+
+Package: python3-mwparserfromhell
+Architecture: any
+Depends: ${misc:Depends}, ${python3:Depends}, ${shlibs:Depends}
+Description: Outrageously powerful parser for MediaWiki wikicode
+ mwparserfromhell is a pure-Python parser (with optional C speedup) for
+ MediaWiki wikicode. It allows parsing and manipulation of complex
+ structures like nested templates, tables, and much more.
+ .
+ Documentation at https://mwparserfromhell.readthedocs.org/
+ .
+ This is the Python 3 version.
+
+Package: python-mwparserfromhell
+Architecture: any
+Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}
+Description: Outrageously powerful parser for MediaWiki wikicode
+ mwparserfromhell is a pure-Python parser (with optional C speedup) for
+ MediaWiki wikicode. It allows parsing and manipulation of complex
+ structures like nested templates, tables, and much more.
+ .
+ Documentation at https://mwparserfromhell.readthedocs.org/
+ .
+ This is the Python 2 version.

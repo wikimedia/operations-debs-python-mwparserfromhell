@@ -1,0 +1,6 @@
+mwparserfromhell (0.4.2-1) sid; urgency=medium
+
+  * Initial version of the package
+  * Closes: 756888
+
+ -- Yuvi Panda <yuvipanda@riseup.net>  Fri, 07 Aug 2015 18:16:37 -0700

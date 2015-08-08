@@ -1,0 +1,3 @@
+version=3
+opts=filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/mwparserfromhell-$1\.tar\.gz/ \
+  https://github.com/earwig/mwparserfromhell/tags .*/v?(\d\S*)\.tar\.gz
